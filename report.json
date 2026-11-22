@@ -1,0 +1,272 @@
+[
+  {
+    "level": 1,
+    "theme": "pasar",
+    "vehicles": 4,
+    "par": 3,
+    "method": "bfs",
+    "bfs_nodes": 33,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 2,
+    "theme": "pasar",
+    "vehicles": 4,
+    "par": 4,
+    "method": "bfs",
+    "bfs_nodes": 87,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 3,
+    "theme": "pasar",
+    "vehicles": 5,
+    "par": 6,
+    "method": "bfs",
+    "bfs_nodes": 170,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 4,
+    "theme": "pasar",
+    "vehicles": 5,
+    "par": 5,
+    "method": "bfs",
+    "bfs_nodes": 270,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 5,
+    "theme": "pasar",
+    "vehicles": 5,
+    "par": 6,
+    "method": "bfs",
+    "bfs_nodes": 108,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 6,
+    "theme": "pasar",
+    "vehicles": 6,
+    "par": 9,
+    "method": "bfs",
+    "bfs_nodes": 276,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 7,
+    "theme": "pasar",
+    "vehicles": 6,
+    "par": 10,
+    "method": "bfs",
+    "bfs_nodes": 561,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 8,
+    "theme": "pasar",
+    "vehicles": 6,
+    "par": 12,
+    "method": "bfs",
+    "bfs_nodes": 217,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 9,
+    "theme": "pasar",
+    "vehicles": 6,
+    "par": 9,
+    "method": "bfs",
+    "bfs_nodes": 233,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 10,
+    "theme": "pasar",
+    "vehicles": 6,
+    "par": 12,
+    "method": "bfs",
+    "bfs_nodes": 592,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 11,
+    "theme": "terminal",
+    "vehicles": 6,
+    "par": 10,
+    "method": "bfs",
+    "bfs_nodes": 218,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 12,
+    "theme": "terminal",
+    "vehicles": 7,
+    "par": 4,
+    "method": "bfs",
+    "bfs_nodes": 286,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 13,
+    "theme": "terminal",
+    "vehicles": 7,
+    "par": 3,
+    "method": "bfs",
+    "bfs_nodes": 52,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 14,
+    "theme": "terminal",
+    "vehicles": 7,
+    "par": 4,
+    "method": "bfs",
+    "bfs_nodes": 161,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 15,
+    "theme": "terminal",
+    "vehicles": 8,
+    "par": 4,
+    "method": "bfs",
+    "bfs_nodes": 185,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 16,
+    "theme": "terminal",
+    "vehicles": 8,
+    "par": 4,
+    "method": "bfs",
+    "bfs_nodes": 248,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 17,
+    "theme": "terminal",
+    "vehicles": 8,
+    "par": 4,
+    "method": "bfs",
+    "bfs_nodes": 71,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 18,
+    "theme": "terminal",
+    "vehicles": 8,
+    "par": 4,
+    "method": "bfs",
+    "bfs_nodes": 282,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 19,
+    "theme": "terminal",
+    "vehicles": 8,
+    "par": 4,
+    "method": "bfs",
+    "bfs_nodes": 114,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 20,
+    "theme": "terminal",
+    "vehicles": 8,
+    "par": 3,
+    "method": "bfs",
+    "bfs_nodes": 100,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 21,
+    "theme": "mal",
+    "vehicles": 8,
+    "par": 4,
+    "method": "bfs",
+    "bfs_nodes": 254,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 22,
+    "theme": "mal",
+    "vehicles": 8,
+    "par": 4,
+    "method": "bfs",
+    "bfs_nodes": 89,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 23,
+    "theme": "mal",
+    "vehicles": 9,
+    "par": 4,
+    "method": "bfs",
+    "bfs_nodes": 169,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 24,
+    "theme": "mal",
+    "vehicles": 9,
+    "par": 4,
+    "method": "bfs",
+    "bfs_nodes": 70,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 25,
+    "theme": "mal",
+    "vehicles": 9,
+    "par": 4,
+    "method": "bfs",
+    "bfs_nodes": 92,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 26,
+    "theme": "mal",
+    "vehicles": 9,
+    "par": 5,
+    "method": "bfs",
+    "bfs_nodes": 292,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 27,
+    "theme": "mal",
+    "vehicles": 10,
+    "par": 6,
+    "method": "bfs",
+    "bfs_nodes": 907,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 28,
+    "theme": "mal",
+    "vehicles": 10,
+    "par": 6,
+    "method": "bfs",
+    "bfs_nodes": 375,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 29,
+    "theme": "mal",
+    "vehicles": 10,
+    "par": 5,
+    "method": "bfs",
+    "bfs_nodes": 178,
+    "note": "BFS-optimal"
+  },
+  {
+    "level": 30,
+    "theme": "mal",
+    "vehicles": 10,
+    "par": 7,
+    "method": "bfs",
+    "bfs_nodes": 1692,
+    "note": "BFS-optimal"
+  }
+]

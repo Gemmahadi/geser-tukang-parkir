@@ -1,0 +1,3127 @@
+[
+  {
+    "name": "Level 1",
+    "theme": "pasar",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "motor",
+        "len": 1,
+        "dir": "V",
+        "row": 2,
+        "col": 4,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 4,
+        "col": 5,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 1,
+        "col": 3,
+        "color": "green"
+      }
+    ],
+    "par": 3,
+    "solution": [
+      [
+        "A",
+        "U",
+        1
+      ],
+      [
+        "C",
+        "D",
+        2
+      ],
+      [
+        "P",
+        "R",
+        6
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 2",
+    "theme": "pasar",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 1,
+        "col": 2,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 0,
+        "col": 3,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 2,
+        "col": 4,
+        "color": "green"
+      }
+    ],
+    "par": 4,
+    "solution": [
+      [
+        "A",
+        "D",
+        2
+      ],
+      [
+        "B",
+        "D",
+        3
+      ],
+      [
+        "C",
+        "U",
+        2
+      ],
+      [
+        "P",
+        "R",
+        6
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 3",
+    "theme": "pasar",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 0,
+        "col": 4,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "angkot",
+        "len": 3,
+        "dir": "H",
+        "row": 3,
+        "col": 1,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 4,
+        "col": 2,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 4,
+        "col": 3,
+        "color": "orange"
+      }
+    ],
+    "par": 6,
+    "solution": [
+      [
+        "B",
+        "R",
+        2
+      ],
+      [
+        "C",
+        "U",
+        4
+      ],
+      [
+        "B",
+        "L",
+        2
+      ],
+      [
+        "D",
+        "L",
+        1
+      ],
+      [
+        "A",
+        "D",
+        3
+      ],
+      [
+        "P",
+        "R",
+        6
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 4",
+    "theme": "pasar",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 1,
+        "col": 3,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "motor",
+        "len": 1,
+        "dir": "H",
+        "row": 3,
+        "col": 2,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 0,
+        "col": 2,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 1,
+        "col": 5,
+        "color": "orange"
+      }
+    ],
+    "par": 5,
+    "solution": [
+      [
+        "A",
+        "U",
+        1
+      ],
+      [
+        "B",
+        "L",
+        1
+      ],
+      [
+        "C",
+        "D",
+        3
+      ],
+      [
+        "D",
+        "U",
+        1
+      ],
+      [
+        "P",
+        "R",
+        6
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 5",
+    "theme": "pasar",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 0,
+        "col": 3,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "angkot",
+        "len": 3,
+        "dir": "H",
+        "row": 4,
+        "col": 2,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 2,
+        "col": 2,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 3,
+        "col": 0,
+        "color": "orange"
+      }
+    ],
+    "par": 6,
+    "solution": [
+      [
+        "C",
+        "U",
+        2
+      ],
+      [
+        "P",
+        "R",
+        1
+      ],
+      [
+        "D",
+        "U",
+        1
+      ],
+      [
+        "B",
+        "L",
+        2
+      ],
+      [
+        "A",
+        "D",
+        3
+      ],
+      [
+        "P",
+        "R",
+        5
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 6",
+    "theme": "pasar",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 1,
+        "col": 4,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "angkot",
+        "len": 3,
+        "dir": "H",
+        "row": 4,
+        "col": 1,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 0,
+        "col": 1,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 2,
+        "col": 5,
+        "color": "orange"
+      },
+      {
+        "id": "E",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 0,
+        "col": 2,
+        "color": "purple"
+      }
+    ],
+    "par": 9,
+    "solution": [
+      [
+        "A",
+        "U",
+        1
+      ],
+      [
+        "D",
+        "U",
+        1
+      ],
+      [
+        "B",
+        "R",
+        2
+      ],
+      [
+        "E",
+        "D",
+        3
+      ],
+      [
+        "P",
+        "R",
+        3
+      ],
+      [
+        "E",
+        "U",
+        2
+      ],
+      [
+        "B",
+        "L",
+        1
+      ],
+      [
+        "D",
+        "D",
+        2
+      ],
+      [
+        "P",
+        "R",
+        3
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 7",
+    "theme": "pasar",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 0,
+        "col": 3,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 3,
+        "col": 4,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 3,
+        "col": 1,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 5,
+        "col": 2,
+        "color": "orange"
+      },
+      {
+        "id": "E",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 0,
+        "col": 5,
+        "color": "purple"
+      }
+    ],
+    "par": 10,
+    "solution": [
+      [
+        "D",
+        "L",
+        1
+      ],
+      [
+        "A",
+        "D",
+        3
+      ],
+      [
+        "P",
+        "R",
+        2
+      ],
+      [
+        "C",
+        "U",
+        3
+      ],
+      [
+        "P",
+        "L",
+        1
+      ],
+      [
+        "A",
+        "U",
+        3
+      ],
+      [
+        "B",
+        "L",
+        3
+      ],
+      [
+        "A",
+        "D",
+        3
+      ],
+      [
+        "E",
+        "D",
+        3
+      ],
+      [
+        "P",
+        "R",
+        5
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 8",
+    "theme": "pasar",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "motor",
+        "len": 1,
+        "dir": "V",
+        "row": 2,
+        "col": 4,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 4,
+        "col": 1,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 3,
+        "col": 4,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 1,
+        "col": 2,
+        "color": "orange"
+      },
+      {
+        "id": "E",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 4,
+        "col": 2,
+        "color": "purple"
+      }
+    ],
+    "par": 12,
+    "solution": [
+      [
+        "A",
+        "U",
+        1
+      ],
+      [
+        "C",
+        "U",
+        1
+      ],
+      [
+        "E",
+        "R",
+        1
+      ],
+      [
+        "D",
+        "D",
+        2
+      ],
+      [
+        "P",
+        "R",
+        2
+      ],
+      [
+        "B",
+        "U",
+        4
+      ],
+      [
+        "P",
+        "L",
+        2
+      ],
+      [
+        "D",
+        "U",
+        2
+      ],
+      [
+        "E",
+        "L",
+        3
+      ],
+      [
+        "C",
+        "D",
+        1
+      ],
+      [
+        "D",
+        "D",
+        2
+      ],
+      [
+        "P",
+        "R",
+        6
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 9",
+    "theme": "pasar",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 2,
+        "col": 4,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 4,
+        "col": 1,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 0,
+        "col": 2,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 2,
+        "col": 5,
+        "color": "orange"
+      },
+      {
+        "id": "E",
+        "type": "angkot",
+        "len": 3,
+        "dir": "H",
+        "row": 4,
+        "col": 2,
+        "color": "purple"
+      }
+    ],
+    "par": 9,
+    "solution": [
+      [
+        "A",
+        "U",
+        2
+      ],
+      [
+        "D",
+        "U",
+        1
+      ],
+      [
+        "E",
+        "R",
+        1
+      ],
+      [
+        "C",
+        "D",
+        3
+      ],
+      [
+        "P",
+        "R",
+        3
+      ],
+      [
+        "C",
+        "U",
+        2
+      ],
+      [
+        "E",
+        "L",
+        1
+      ],
+      [
+        "D",
+        "D",
+        2
+      ],
+      [
+        "P",
+        "R",
+        3
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 10",
+    "theme": "pasar",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 1,
+        "col": 2,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 4,
+        "col": 2,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 0,
+        "col": 4,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 5,
+        "col": 2,
+        "color": "orange"
+      },
+      {
+        "id": "E",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 4,
+        "col": 0,
+        "color": "purple"
+      }
+    ],
+    "par": 12,
+    "solution": [
+      [
+        "B",
+        "R",
+        1
+      ],
+      [
+        "D",
+        "R",
+        1
+      ],
+      [
+        "A",
+        "D",
+        2
+      ],
+      [
+        "P",
+        "R",
+        1
+      ],
+      [
+        "E",
+        "U",
+        4
+      ],
+      [
+        "P",
+        "L",
+        1
+      ],
+      [
+        "A",
+        "U",
+        2
+      ],
+      [
+        "B",
+        "L",
+        3
+      ],
+      [
+        "D",
+        "L",
+        3
+      ],
+      [
+        "A",
+        "D",
+        2
+      ],
+      [
+        "C",
+        "D",
+        3
+      ],
+      [
+        "P",
+        "R",
+        6
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 11",
+    "theme": "terminal",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 0,
+        "col": 2,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 1,
+        "col": 5,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "angkot",
+        "len": 3,
+        "dir": "H",
+        "row": 4,
+        "col": 2,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "angkot",
+        "len": 3,
+        "dir": "H",
+        "row": 3,
+        "col": 1,
+        "color": "orange"
+      },
+      {
+        "id": "E",
+        "type": "motor",
+        "len": 1,
+        "dir": "V",
+        "row": 4,
+        "col": 1,
+        "color": "purple"
+      }
+    ],
+    "par": 10,
+    "solution": [
+      [
+        "B",
+        "U",
+        1
+      ],
+      [
+        "C",
+        "R",
+        1
+      ],
+      [
+        "D",
+        "R",
+        2
+      ],
+      [
+        "A",
+        "D",
+        3
+      ],
+      [
+        "P",
+        "R",
+        3
+      ],
+      [
+        "A",
+        "U",
+        3
+      ],
+      [
+        "C",
+        "L",
+        1
+      ],
+      [
+        "D",
+        "L",
+        1
+      ],
+      [
+        "B",
+        "D",
+        3
+      ],
+      [
+        "P",
+        "R",
+        3
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 12",
+    "theme": "terminal",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 2,
+        "col": 2,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "motor",
+        "len": 1,
+        "dir": "V",
+        "row": 2,
+        "col": 5,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "motor",
+        "len": 1,
+        "dir": "V",
+        "row": 4,
+        "col": 0,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 0,
+        "col": 2,
+        "color": "orange"
+      },
+      {
+        "id": "E",
+        "type": "motor",
+        "len": 1,
+        "dir": "V",
+        "row": 5,
+        "col": 1,
+        "color": "purple"
+      },
+      {
+        "id": "F",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 1,
+        "col": 3,
+        "color": "white"
+      }
+    ],
+    "par": 4,
+    "solution": [
+      [
+        "A",
+        "D",
+        1
+      ],
+      [
+        "B",
+        "U",
+        1
+      ],
+      [
+        "F",
+        "D",
+        2
+      ],
+      [
+        "P",
+        "R",
+        6
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 13",
+    "theme": "terminal",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "motor",
+        "len": 1,
+        "dir": "V",
+        "row": 0,
+        "col": 0,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 2,
+        "col": 5,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "angkot",
+        "len": 3,
+        "dir": "H",
+        "row": 4,
+        "col": 0,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 4,
+        "col": 3,
+        "color": "orange"
+      },
+      {
+        "id": "E",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 3,
+        "col": 4,
+        "color": "purple"
+      },
+      {
+        "id": "F",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 1,
+        "col": 3,
+        "color": "white"
+      }
+    ],
+    "par": 3,
+    "solution": [
+      [
+        "B",
+        "U",
+        2
+      ],
+      [
+        "F",
+        "U",
+        1
+      ],
+      [
+        "P",
+        "R",
+        6
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 14",
+    "theme": "terminal",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 1,
+        "col": 5,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 4,
+        "col": 0,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 4,
+        "col": 4,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 1,
+        "col": 2,
+        "color": "orange"
+      },
+      {
+        "id": "E",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 0,
+        "col": 4,
+        "color": "purple"
+      },
+      {
+        "id": "F",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 1,
+        "col": 3,
+        "color": "white"
+      }
+    ],
+    "par": 4,
+    "solution": [
+      [
+        "A",
+        "U",
+        1
+      ],
+      [
+        "D",
+        "D",
+        2
+      ],
+      [
+        "F",
+        "U",
+        1
+      ],
+      [
+        "P",
+        "R",
+        6
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 15",
+    "theme": "terminal",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "mogok",
+        "len": 2,
+        "dir": "V",
+        "row": 3,
+        "col": 2,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 2,
+        "col": 3,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 1,
+        "col": 2,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 3,
+        "col": 4,
+        "color": "orange"
+      },
+      {
+        "id": "E",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 0,
+        "col": 1,
+        "color": "purple"
+      },
+      {
+        "id": "F",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 1,
+        "col": 5,
+        "color": "white"
+      },
+      {
+        "id": "G",
+        "type": "motor",
+        "len": 1,
+        "dir": "V",
+        "row": 4,
+        "col": 1,
+        "color": "pink"
+      }
+    ],
+    "par": 4,
+    "solution": [
+      [
+        "B",
+        "D",
+        1
+      ],
+      [
+        "C",
+        "U",
+        1
+      ],
+      [
+        "F",
+        "U",
+        1
+      ],
+      [
+        "P",
+        "R",
+        6
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 16",
+    "theme": "terminal",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 1,
+        "col": 4,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "mogok",
+        "len": 2,
+        "dir": "H",
+        "row": 0,
+        "col": 0,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 0,
+        "col": 4,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "motor",
+        "len": 1,
+        "dir": "V",
+        "row": 2,
+        "col": 5,
+        "color": "orange"
+      },
+      {
+        "id": "E",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 1,
+        "col": 3,
+        "color": "purple"
+      },
+      {
+        "id": "F",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 3,
+        "col": 5,
+        "color": "white"
+      },
+      {
+        "id": "G",
+        "type": "angkot",
+        "len": 3,
+        "dir": "H",
+        "row": 5,
+        "col": 0,
+        "color": "pink"
+      }
+    ],
+    "par": 4,
+    "solution": [
+      [
+        "A",
+        "D",
+        2
+      ],
+      [
+        "D",
+        "U",
+        1
+      ],
+      [
+        "E",
+        "U",
+        1
+      ],
+      [
+        "P",
+        "R",
+        6
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 17",
+    "theme": "terminal",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 2,
+        "col": 2,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 4,
+        "col": 4,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "motor",
+        "len": 1,
+        "dir": "V",
+        "row": 1,
+        "col": 0,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 1,
+        "col": 5,
+        "color": "orange"
+      },
+      {
+        "id": "E",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 4,
+        "col": 2,
+        "color": "purple"
+      },
+      {
+        "id": "F",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 1,
+        "col": 3,
+        "color": "white"
+      },
+      {
+        "id": "G",
+        "type": "mogok",
+        "len": 2,
+        "dir": "H",
+        "row": 0,
+        "col": 3,
+        "color": "pink"
+      }
+    ],
+    "par": 4,
+    "solution": [
+      [
+        "A",
+        "U",
+        2
+      ],
+      [
+        "B",
+        "L",
+        1
+      ],
+      [
+        "D",
+        "D",
+        2
+      ],
+      [
+        "P",
+        "R",
+        6
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 18",
+    "theme": "terminal",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "mogok",
+        "len": 2,
+        "dir": "H",
+        "row": 1,
+        "col": 1,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 0,
+        "col": 0,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 1,
+        "col": 3,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 3,
+        "col": 2,
+        "color": "orange"
+      },
+      {
+        "id": "E",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 0,
+        "col": 4,
+        "color": "purple"
+      },
+      {
+        "id": "F",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 2,
+        "col": 5,
+        "color": "white"
+      },
+      {
+        "id": "G",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 4,
+        "col": 5,
+        "color": "pink"
+      }
+    ],
+    "par": 4,
+    "solution": [
+      [
+        "C",
+        "U",
+        1
+      ],
+      [
+        "E",
+        "D",
+        3
+      ],
+      [
+        "F",
+        "U",
+        2
+      ],
+      [
+        "P",
+        "R",
+        6
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 19",
+    "theme": "terminal",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 0,
+        "col": 4,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "angkot",
+        "len": 3,
+        "dir": "H",
+        "row": 5,
+        "col": 0,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 1,
+        "col": 3,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "mogok",
+        "len": 2,
+        "dir": "V",
+        "row": 4,
+        "col": 3,
+        "color": "orange"
+      },
+      {
+        "id": "E",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 0,
+        "col": 0,
+        "color": "purple"
+      },
+      {
+        "id": "F",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 2,
+        "col": 4,
+        "color": "white"
+      },
+      {
+        "id": "G",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 1,
+        "col": 2,
+        "color": "pink"
+      }
+    ],
+    "par": 4,
+    "solution": [
+      [
+        "C",
+        "U",
+        1
+      ],
+      [
+        "F",
+        "D",
+        1
+      ],
+      [
+        "G",
+        "U",
+        1
+      ],
+      [
+        "P",
+        "R",
+        6
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 20",
+    "theme": "terminal",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 4,
+        "col": 0,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "mogok",
+        "len": 2,
+        "dir": "H",
+        "row": 3,
+        "col": 1,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "angkot",
+        "len": 3,
+        "dir": "H",
+        "row": 5,
+        "col": 0,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 1,
+        "col": 3,
+        "color": "orange"
+      },
+      {
+        "id": "E",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 3,
+        "col": 5,
+        "color": "purple"
+      },
+      {
+        "id": "F",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 0,
+        "col": 1,
+        "color": "white"
+      },
+      {
+        "id": "G",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 1,
+        "col": 5,
+        "color": "pink"
+      }
+    ],
+    "par": 3,
+    "solution": [
+      [
+        "D",
+        "U",
+        1
+      ],
+      [
+        "G",
+        "U",
+        1
+      ],
+      [
+        "P",
+        "R",
+        6
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 21",
+    "theme": "mal",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 1,
+        "col": 5,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 1,
+        "col": 4,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 0,
+        "col": 2,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 4,
+        "col": 2,
+        "color": "orange"
+      },
+      {
+        "id": "E",
+        "type": "mogok",
+        "len": 2,
+        "dir": "V",
+        "row": 4,
+        "col": 1,
+        "color": "purple"
+      },
+      {
+        "id": "F",
+        "type": "motor",
+        "len": 1,
+        "dir": "H",
+        "row": 5,
+        "col": 4,
+        "color": "white"
+      },
+      {
+        "id": "G",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 4,
+        "col": 5,
+        "color": "pink"
+      }
+    ],
+    "par": 4,
+    "solution": [
+      [
+        "A",
+        "U",
+        1
+      ],
+      [
+        "F",
+        "L",
+        1
+      ],
+      [
+        "B",
+        "D",
+        2
+      ],
+      [
+        "P",
+        "R",
+        6
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 22",
+    "theme": "mal",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 2,
+        "col": 5,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "motor",
+        "len": 1,
+        "dir": "H",
+        "row": 5,
+        "col": 5,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 1,
+        "col": 4,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "angkot",
+        "len": 3,
+        "dir": "H",
+        "row": 5,
+        "col": 1,
+        "color": "orange"
+      },
+      {
+        "id": "E",
+        "type": "mogok",
+        "len": 2,
+        "dir": "V",
+        "row": 3,
+        "col": 1,
+        "color": "purple"
+      },
+      {
+        "id": "F",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 0,
+        "col": 2,
+        "color": "white"
+      },
+      {
+        "id": "G",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 2,
+        "col": 2,
+        "color": "pink"
+      }
+    ],
+    "par": 4,
+    "solution": [
+      [
+        "A",
+        "U",
+        2
+      ],
+      [
+        "C",
+        "U",
+        1
+      ],
+      [
+        "G",
+        "D",
+        1
+      ],
+      [
+        "P",
+        "R",
+        6
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 23",
+    "theme": "mal",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "motor",
+        "len": 1,
+        "dir": "H",
+        "row": 1,
+        "col": 2,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 4,
+        "col": 3,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 3,
+        "col": 1,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "mogok",
+        "len": 2,
+        "dir": "V",
+        "row": 4,
+        "col": 0,
+        "color": "orange"
+      },
+      {
+        "id": "E",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 2,
+        "col": 5,
+        "color": "purple"
+      },
+      {
+        "id": "F",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 1,
+        "col": 3,
+        "color": "white"
+      },
+      {
+        "id": "G",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 1,
+        "col": 0,
+        "color": "pink"
+      },
+      {
+        "id": "H",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 1,
+        "col": 4,
+        "color": "cyan"
+      }
+    ],
+    "par": 4,
+    "solution": [
+      [
+        "E",
+        "U",
+        2
+      ],
+      [
+        "F",
+        "U",
+        1
+      ],
+      [
+        "H",
+        "U",
+        1
+      ],
+      [
+        "P",
+        "R",
+        6
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 24",
+    "theme": "mal",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 0,
+        "col": 3,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "motor",
+        "len": 1,
+        "dir": "V",
+        "row": 0,
+        "col": 0,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 2,
+        "col": 3,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 5,
+        "col": 1,
+        "color": "orange"
+      },
+      {
+        "id": "E",
+        "type": "mogok",
+        "len": 2,
+        "dir": "V",
+        "row": 4,
+        "col": 5,
+        "color": "purple"
+      },
+      {
+        "id": "F",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 0,
+        "col": 2,
+        "color": "white"
+      },
+      {
+        "id": "G",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 3,
+        "col": 4,
+        "color": "pink"
+      },
+      {
+        "id": "H",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 0,
+        "col": 1,
+        "color": "cyan"
+      }
+    ],
+    "par": 4,
+    "solution": [
+      [
+        "C",
+        "D",
+        1
+      ],
+      [
+        "D",
+        "L",
+        1
+      ],
+      [
+        "F",
+        "D",
+        3
+      ],
+      [
+        "P",
+        "R",
+        6
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 25",
+    "theme": "mal",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "angkot",
+        "len": 3,
+        "dir": "H",
+        "row": 5,
+        "col": 0,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 2,
+        "col": 3,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 0,
+        "col": 3,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 2,
+        "col": 4,
+        "color": "orange"
+      },
+      {
+        "id": "E",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 1,
+        "col": 2,
+        "color": "purple"
+      },
+      {
+        "id": "F",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 3,
+        "col": 2,
+        "color": "white"
+      },
+      {
+        "id": "G",
+        "type": "mogok",
+        "len": 2,
+        "dir": "V",
+        "row": 3,
+        "col": 0,
+        "color": "pink"
+      },
+      {
+        "id": "H",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 0,
+        "col": 0,
+        "color": "cyan"
+      }
+    ],
+    "par": 4,
+    "solution": [
+      [
+        "B",
+        "D",
+        1
+      ],
+      [
+        "D",
+        "U",
+        2
+      ],
+      [
+        "E",
+        "U",
+        1
+      ],
+      [
+        "P",
+        "R",
+        6
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 26",
+    "theme": "mal",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 2,
+        "col": 4,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "mogok",
+        "len": 2,
+        "dir": "H",
+        "row": 5,
+        "col": 0,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 1,
+        "col": 2,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 0,
+        "col": 0,
+        "color": "orange"
+      },
+      {
+        "id": "E",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 1,
+        "col": 3,
+        "color": "purple"
+      },
+      {
+        "id": "F",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 4,
+        "col": 2,
+        "color": "white"
+      },
+      {
+        "id": "G",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 1,
+        "col": 5,
+        "color": "pink"
+      },
+      {
+        "id": "H",
+        "type": "motor",
+        "len": 1,
+        "dir": "H",
+        "row": 3,
+        "col": 1,
+        "color": "cyan"
+      }
+    ],
+    "par": 5,
+    "solution": [
+      [
+        "A",
+        "D",
+        1
+      ],
+      [
+        "F",
+        "L",
+        2
+      ],
+      [
+        "C",
+        "D",
+        2
+      ],
+      [
+        "G",
+        "U",
+        1
+      ],
+      [
+        "P",
+        "R",
+        6
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 27",
+    "theme": "mal",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "mogok",
+        "len": 2,
+        "dir": "H",
+        "row": 3,
+        "col": 0,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "motor",
+        "len": 1,
+        "dir": "H",
+        "row": 0,
+        "col": 1,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 0,
+        "col": 3,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "motor",
+        "len": 1,
+        "dir": "H",
+        "row": 5,
+        "col": 2,
+        "color": "orange"
+      },
+      {
+        "id": "E",
+        "type": "motor",
+        "len": 1,
+        "dir": "V",
+        "row": 3,
+        "col": 3,
+        "color": "purple"
+      },
+      {
+        "id": "F",
+        "type": "motor",
+        "len": 1,
+        "dir": "V",
+        "row": 2,
+        "col": 3,
+        "color": "white"
+      },
+      {
+        "id": "G",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 0,
+        "col": 2,
+        "color": "pink"
+      },
+      {
+        "id": "H",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 4,
+        "col": 1,
+        "color": "cyan"
+      },
+      {
+        "id": "I",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 1,
+        "col": 0,
+        "color": "brown"
+      }
+    ],
+    "par": 6,
+    "solution": [
+      [
+        "D",
+        "L",
+        1
+      ],
+      [
+        "E",
+        "D",
+        1
+      ],
+      [
+        "F",
+        "D",
+        1
+      ],
+      [
+        "H",
+        "L",
+        1
+      ],
+      [
+        "G",
+        "D",
+        3
+      ],
+      [
+        "P",
+        "R",
+        6
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 28",
+    "theme": "mal",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 1,
+        "col": 5,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 2,
+        "col": 2,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "mogok",
+        "len": 2,
+        "dir": "V",
+        "row": 0,
+        "col": 0,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 1,
+        "col": 4,
+        "color": "orange"
+      },
+      {
+        "id": "E",
+        "type": "angkot",
+        "len": 3,
+        "dir": "V",
+        "row": 1,
+        "col": 3,
+        "color": "purple"
+      },
+      {
+        "id": "F",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 4,
+        "col": 2,
+        "color": "white"
+      },
+      {
+        "id": "G",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 1,
+        "col": 1,
+        "color": "pink"
+      },
+      {
+        "id": "H",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 4,
+        "col": 1,
+        "color": "cyan"
+      },
+      {
+        "id": "I",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 4,
+        "col": 5,
+        "color": "brown"
+      }
+    ],
+    "par": 6,
+    "solution": [
+      [
+        "A",
+        "U",
+        1
+      ],
+      [
+        "D",
+        "D",
+        2
+      ],
+      [
+        "E",
+        "D",
+        2
+      ],
+      [
+        "G",
+        "R",
+        2
+      ],
+      [
+        "B",
+        "U",
+        2
+      ],
+      [
+        "P",
+        "R",
+        6
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 29",
+    "theme": "mal",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 4,
+        "col": 5,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 4,
+        "col": 1,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 4,
+        "col": 0,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "mogok",
+        "len": 2,
+        "dir": "H",
+        "row": 3,
+        "col": 3,
+        "color": "orange"
+      },
+      {
+        "id": "E",
+        "type": "angkot",
+        "len": 3,
+        "dir": "H",
+        "row": 1,
+        "col": 0,
+        "color": "purple"
+      },
+      {
+        "id": "F",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 2,
+        "col": 2,
+        "color": "white"
+      },
+      {
+        "id": "G",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 2,
+        "col": 5,
+        "color": "pink"
+      },
+      {
+        "id": "H",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 1,
+        "col": 3,
+        "color": "cyan"
+      },
+      {
+        "id": "I",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 5,
+        "col": 1,
+        "color": "brown"
+      }
+    ],
+    "par": 5,
+    "solution": [
+      [
+        "B",
+        "R",
+        2
+      ],
+      [
+        "F",
+        "D",
+        1
+      ],
+      [
+        "G",
+        "U",
+        2
+      ],
+      [
+        "H",
+        "U",
+        1
+      ],
+      [
+        "P",
+        "R",
+        6
+      ]
+    ],
+    "method": "bfs"
+  },
+  {
+    "name": "Level 30",
+    "theme": "mal",
+    "vehicles": [
+      {
+        "id": "P",
+        "type": "player",
+        "len": 2,
+        "dir": "H",
+        "row": 2,
+        "col": 0,
+        "color": "red"
+      },
+      {
+        "id": "A",
+        "type": "angkot",
+        "len": 3,
+        "dir": "H",
+        "row": 0,
+        "col": 2,
+        "color": "blue"
+      },
+      {
+        "id": "B",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 2,
+        "col": 5,
+        "color": "yellow"
+      },
+      {
+        "id": "C",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 4,
+        "col": 4,
+        "color": "green"
+      },
+      {
+        "id": "D",
+        "type": "motor",
+        "len": 1,
+        "dir": "V",
+        "row": 4,
+        "col": 1,
+        "color": "orange"
+      },
+      {
+        "id": "E",
+        "type": "mogok",
+        "len": 2,
+        "dir": "H",
+        "row": 5,
+        "col": 2,
+        "color": "purple"
+      },
+      {
+        "id": "F",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 3,
+        "col": 0,
+        "color": "white"
+      },
+      {
+        "id": "G",
+        "type": "car",
+        "len": 2,
+        "dir": "V",
+        "row": 2,
+        "col": 2,
+        "color": "pink"
+      },
+      {
+        "id": "H",
+        "type": "motor",
+        "len": 1,
+        "dir": "H",
+        "row": 1,
+        "col": 5,
+        "color": "cyan"
+      },
+      {
+        "id": "I",
+        "type": "car",
+        "len": 2,
+        "dir": "H",
+        "row": 4,
+        "col": 2,
+        "color": "brown"
+      }
+    ],
+    "par": 7,
+    "solution": [
+      [
+        "A",
+        "R",
+        1
+      ],
+      [
+        "D",
+        "U",
+        1
+      ],
+      [
+        "G",
+        "U",
+        2
+      ],
+      [
+        "I",
+        "L",
+        1
+      ],
+      [
+        "C",
+        "L",
+        1
+      ],
+      [
+        "B",
+        "D",
+        1
+      ],
+      [
+        "P",
+        "R",
+        6
+      ]
+    ],
+    "method": "bfs"
+  }
+]
